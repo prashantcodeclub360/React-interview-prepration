@@ -18,3 +18,10 @@
        function Car() {
          return <h2>Hi, I am a Car!</h2>;
       }
+
+# What is props ?
+
+- Props are the arugument which like function which use passed
+- Props are the passed to componets via html
+- React props are the arguments in js and via html atribute
+- to send attribute to car the components

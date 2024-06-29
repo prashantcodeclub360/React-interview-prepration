@@ -32,14 +32,26 @@ import  "./App.css";
 //     )
 // };
 
-//  now uses of Events 
+//  now uses of props and compoets 
 
+const App = () => {
 
-
-
-
-
-
-
+        function Car(props) {
+            return(
+                <>
+                <h1>Hey This is my first Car{props.brand}</h1>
+                <h2>Hey This is my first Car{props.brand}</h2>
+                <h3>Hey This is my first Car{props.brand}</h3>
+                </> 
+            )
+        }
+        
+        
+        
+       
+    }
+    const model = 
+    
+            <Car brand = "BMW" />
 
 export default App;
